@@ -219,11 +219,11 @@ export default function Homepage() {
                     </div>
 
                     <div className="contact-links">
-                        <a href="mailto:you@example.com">you@example.com</a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                        <a href="mailto:taylorh.0990@gmail.com">Email</a>
+                        <a href="https://www.linkedin.com/in/taylor-harry/" target="_blank" rel="noreferrer">
                             LinkedIn
                         </a>
-                        <a href="/resume.pdf" download>
+                        <a href="../assets/Taylor_Resume_IT.pdf" download>
                             Resume
                         </a>
                     </div>
