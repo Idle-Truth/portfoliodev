@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import './hero.css';
 
+const foodTruck = new URL('../assets/food_truck.png', import.meta.url).href;
+
 type MenuItem = {
     id: string;
     label: string;
@@ -72,11 +74,13 @@ export function Hero() {
         [activeId]
     );
 
+    console.log('foodTruck url:', foodTruck);
+
     return (
         <section className="hero-shell" id="top">
             <div className="hero-image-wrap">
                 <img
-                    src="/food_truck.png"
+                    src={foodTruck}
                     alt="Soft pastel food truck with cherry blossoms and a menu board"
                     className="hero-image"
                 />

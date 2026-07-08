@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import '../pages-css/homepage.css';
+import foodTruck from '../assets/food_truck.png';
 
 const MENU_ITEMS = [
     {
@@ -95,7 +96,7 @@ export default function Homepage() {
             <section className="hero-shell">
                 <div className="hero-image-wrap">
                     <img
-                        src="/food_truck.jpg"
+                        src={foodTruck}
                         alt="Soft pastel food truck with cherry blossoms and a menu board"
                         className="hero-image"
                     />
